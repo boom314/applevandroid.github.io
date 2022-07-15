@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Entrance</title>
+	<script>
+		function checkpassword() {
+			var password = document.getElementById("passwordbox");
+			var passwordText= password.value; 
+			if (passwordText== "6.62607015") 
+				{return true;}
+			else{alert ("nOpE");
+				return false;}
+		}
+	</script>
+	<style type="text/css">
+		body {background-color: #355c7d;
+			font-family: Trebuchet MS, sans-serif;
+			text-align: center;}
+		p {color: #FFFFFF}
+	</style>
+</head>
+<body>
+<img src="complete nonsense rn\images\minions.gif">
+<p style="font-size: 50px">Enter the Magic Number to Pass</p>
+<p>Password: <input id="passwordbox" type="password"></p>
+<button><a href="boom_page1.html" onclick="return checkpassword()">Log In</a></button>
+</body>
+</html>
